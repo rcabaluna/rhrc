@@ -9,13 +9,13 @@
                     <h5 class="text-center"><?=$pagetitle?></h5>
                     <p class="text-dark text-center">Please scan QR Code:</p>
                     <div class="alert alert-success" id="alert-success">
-                      Attendance confirmation has been registered successfully.
+                      Attendance data has been registered successfully.
                     </div>
                     <div class="alert alert-warning" id="alert-exists">
-                      Attendance data already exists!
+                      Attendance data already exists.
                     </div>
                     <div class="alert alert-danger" id="alert-invalid">
-                      Invalid QR code!
+                      Invalid or expired QR code.
                     </div>
                 </div>
                 <!-- <div class="col-md-12">
@@ -46,7 +46,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                <button type="button" onclick="save_attendance()" class="btn btn-danger">Confirm</button>
+                <button type="button" onclick="save_attendance()" class="btn btn-primary">Confirm</button>
             </div>
           </div>
       </div>
@@ -77,7 +77,7 @@
       });
 
       function confirm_attendance(content){
-        $.post("<?=base_url('handa/confirm-attendance')?>",{
+        $.post("<?=base_url('rhrc/confirm-attendance')?>",{
           data: content
         },function(data){
           if(data == "INVALID"){
@@ -101,8 +101,8 @@
           // $(selcameras).html(option);
 
           if (cameras.length > 0) {
-            // scanner.start(cameras[defaultcam]);
-            scanner.start(cameras[cameras.length-1]);
+            scanner.start(cameras[defaultcam]);
+            // scanner.start(cameras[cameras.length-1]);
 
             scanner.mirror = false;
           } else {
@@ -114,10 +114,10 @@
       }
 
       function save_attendance(){
-        $.post("<?=base_url('handa/save-attendance')?>",{
+
+        $.post("<?=base_url('rhrc/save-attendance')?>",{
           data: contentdata
         },function(data){
-          console.log(data);
           if (data == "SUCCESS") {
             $("#profile-modal-body").html();
             $("#profile-modal").modal("hide");

@@ -13,7 +13,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img class="img-fluid" src="<?=base_url('assets/images/programs/'.$eventsRow['shorthand'].'.png')?>" alt="">
+                                    <img class="img-fluid" src="<?=base_url('assets/images/others/rhrc-registration-qr.png')?>" alt="">
                                 </div>
                                 <div class="col-md-8">
                                     <h5 class="m-b-10 text-dark"><b> <?=$eventsRow['name']?></b></h5>
@@ -26,7 +26,7 @@
                                     </div>
                                     <p class="m-b-20"><?=substr($eventsRow['description'], 0, 100);?>...</p>
                                     <div class="text-right">
-                                        <a class="btn btn-danger btn-tone custom-class font-weight-semibold" href="<?=base_url('handa/registration/event/'.$eventsRow['shorthand'])?>">
+                                        <a class="btn btn-primary btn-tone custom-class font-weight-semibold" href="<?=base_url('rhrc/registration/'); ?>"
                                             <span>Register</span>
                                         </a>
                                     </div>

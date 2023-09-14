@@ -30,7 +30,6 @@ class AttendanceModel extends Model
         $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
         $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
         $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
-        $builder->join('tblevents', 'tblevents.shorthand = tblparticipants.event');
         $builder->where($param);
         $query   = $builder->get();
 
@@ -54,7 +53,6 @@ class AttendanceModel extends Model
         $builder->join('tblsector', 'tblsector.sectorid = tblparticipants.sector');
         $builder->join('refregion', 'refregion.regCode = tblparticipants.address_region');
         $builder->join('refprovince', 'refprovince.provCode = tblparticipants.address_province');
-        $builder->join('tblevents', 'tblevents.shorthand = tblattendance.event');
 
         if ($param['event'] != 'all' && $param['event'] != '') {
             $builder->where('tblattendance.event',$param['event']);

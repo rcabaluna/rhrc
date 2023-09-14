@@ -29,44 +29,44 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('handa/','Home::index');
-$routes->get('/handa/registration/event/(:any)', 'Registration::event/$1');
-$routes->post('handa/reg-process', 'Registration::registerProccess');
-$routes->get('handa/qr-code/(:any)', 'Registration::QRCode');
-$routes->get('handa/find-qr', 'Registration::findQR');
-$routes->post('handa/find-qr-process', 'Registration::findQRProcess');
-$routes->get('handa/get-provinces-list', 'Registration::getProvincesList');
+$routes->get('/rhrc','Home::index');
+$routes->get('/rhrc/registration/', 'Registration::event');
+$routes->post('rhrc/reg-process', 'Registration::registerProccess');
+$routes->get('rhrc/qr-code/(:any)', 'Registration::QRCode');
+$routes->get('rhrc/find-qr', 'Registration::findQR');
+$routes->post('rhrc/find-qr-process', 'Registration::findQRProcess');
+$routes->get('rhrc/get-provinces-list', 'Registration::getProvincesList');
 
 
 # WALK-IN REGISTRATION
-$routes->get('/handa/w-registration/event/(:any)', 'Registration::walkinRegistration/$1');
-$routes->post('handa/w-reg-process', 'Registration::walkinRegistrationProcess');
+$routes->get('/rhrc/w-registration/event/(:any)', 'Registration::walkinRegistration/$1');
+$routes->post('rhrc/w-reg-process', 'Registration::walkinRegistrationProcess');
 
 
-$routes->get('handa/participants', 'Participants::index',['filter' => 'authGuard']);
-$routes->get('handa/participants/delete', 'Participants::deleteParticipant');
+$routes->get('rhrc/participants', 'Participants::index',['filter' => 'authGuard']);
+$routes->get('rhrc/participants/delete', 'Participants::deleteParticipant');
 
-$routes->get('handa/attendance', 'Attendance::index',['filter' => 'authGuard']);
-$routes->get('handa/attendance/delete', 'Attendance::deleteAttendance');
+$routes->get('rhrc/attendance', 'Attendance::index',['filter' => 'authGuard']);
+$routes->get('rhrc/attendance/delete', 'Attendance::deleteAttendance');
 
-$routes->get('handa/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
-$routes->post('handa/confirm-attendance', 'Attendance::AttendanceConfirm');     
-$routes->post('handa/save-attendance', 'Attendance::AttendanceSave');     
+$routes->get('rhrc/81525e75be630cc750ea7beeb81f2de1', 'Attendance::scanQRCode',['filter' => 'authGuard']);
+$routes->post('rhrc/confirm-attendance', 'Attendance::AttendanceConfirm');     
+$routes->post('rhrc/save-attendance', 'Attendance::AttendanceSave');     
 
-$routes->get('handa/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
+$routes->get('rhrc/admin/dashboard','Dashboard::index',['filter' => 'authGuard']);
 
-$routes->match(['get','post'],'handa/login','Home::login');
-$routes->match(['get','post'],'handa/logout','Home::logout');
+$routes->match(['get','post'],'rhrc/login','Home::login');
+$routes->match(['get','post'],'rhrc/logout','Home::logout');
 
 
-$routes->get('handa/registration/links','Admin::registrationList',['filter' => 'authGuard']);
-$routes->get('/handa/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
-$routes->get('handa/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
+$routes->get('rhrc/registration/links','Admin::registrationList',['filter' => 'authGuard']);
+$routes->get('/rhrc/registration/w-list','Admin::registrationWalkInList',['filter' => 'authGuard']);
+$routes->get('rhrc/evaluation/links','Admin::evaluationList',['filter' => 'authGuard']);
 
 # EVALUATION
-$routes->get('/handa/evaluation', 'Evaluation::index');
-$routes->post('handa/evaluation-process', 'Evaluation::evaluationProccess');
-$routes->get('handa/evaluation-test', 'Evaluation::test');
+$routes->get('/rhrc/evaluation', 'Evaluation::index');
+$routes->post('rhrc/evaluation-process', 'Evaluation::evaluationProccess');
+$routes->get('rhrc/evaluation-test', 'Evaluation::test');
 
 
 

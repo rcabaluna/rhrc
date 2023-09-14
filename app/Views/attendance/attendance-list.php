@@ -68,7 +68,7 @@
                             <td><small><?=$attendanceRow['regDesc']." - <br>".$attendanceRow['provDesc']?></small></td>
                             <td><?=$attendanceRow['agency_name']?></td>
                             <td><?=$attendanceRow['sectorname']?></td>
-                            <td><small><?=$attendanceRow['name']?></small></td>
+                            <td><small><?=$attendanceRow['event']?></small></td>
                             <td><?=($attendanceRow['privileges']) ? $attendanceRow['privileges'] : '-' ?></td>
                             <td>
                                 <div class="avatar avatar-image avatar-square">
@@ -78,7 +78,7 @@
                             <td><?=date("M d, Y h:i A",strtotime($attendanceRow['date_registered']))?></td>
                             <td>
                                 <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
-                                <a href="<?=base_url('handa/attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
+                                <a href="<?=base_url('rhrc/attendance/delete?attendanceid='.$attendanceRow['attendanceid'])?>">
                                     <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
                                 </a>
                             </td>
@@ -113,7 +113,7 @@
 
         function get_participants_by_event() {
             var event = $("#selevents").val();
-            window.location.replace("<?=base_url('/handa/attendance?event=')?>"+event);
+            window.location.replace("<?=base_url('/rhrc/attendance?event=')?>"+event);
         }
     </script>
 <?= $this->endSection() ?>

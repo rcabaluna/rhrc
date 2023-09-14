@@ -16,22 +16,22 @@
                                 </div>
                                 <div class="mt-3 col-12">
                                 <p class="text-dark">
-                                Thank you for registering for HANDA Pilipinas 2023 Mindanao Leg! Your participation is invaluable in driving the success of this event. We're excited to have you join us in promoting sustainable communities. Just keep updated on the event details and receive important announcements. Your dedication is inspiring positive change!</p>
-                                    <p class="text-center text-dark">Please download the QR code and present it to the registration booth.</p>
+                                Thank you for registering for the 6th Regional Health Research Conference (Northern Mindanao) your participation is invaluable in driving the success of this event. We're delighted to have you join us celebrating the health research in the region. Just keep updated on the event details and receive important announcements.</p>
+                                    <p class="text-center text-dark">Please download the QR code and present it to the registration booth during the event.</p>
                                 </div>
                                 <div class="col-md-12">
                                     <img class="img-fluid mx-auto d-block" src="<?=base_url('uploads/qr/'.$userid)?>.png">
                                     <p class="text-center font-weight-semibold text-dark"><?=$userid?></p>
                                 </div>
                                 <div class="col-md-12 mt-3 text-center">
-                                    <a class="btn btn-danger custom-class" download="<?=$userid?>.png" href="<?=base_url('uploads/qr/'.$userid)?>.png" target="_blank">
+                                    <a class="btn btn-primary custom-class" download="<?=$userid?>.png" href="<?=base_url('uploads/qr/'.$userid)?>.png" target="_blank">
                                         Download
                                     </a>
                                 </div>
                                 <?php if (session()->get('logged_in')) {
                                     ?>
                                     <div class="col-md-12 mt-3 text-center">
-                                        <a class="text-danger" href="">
+                                        <a class="text-primary" href="">
                                             <u>Register Another</u>
                                         </a>
                                     </div>

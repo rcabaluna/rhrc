@@ -1,6 +1,5 @@
 <?= $this->extend('templates/main') ?>
 <?= $this->section('content') ?>
-<?php $uri = service('uri'); ?>
 <style>
     p{
         color: #2a2a2a !important;
@@ -43,6 +42,7 @@
                                                         <br>Email Address
                                                         <br>Sex
                                                         <br>Address (Region)
+                                                        <br>Address (Province)
                                                         <br>Name of Agency/Institution
                                                         <br>Position
                                                         <br>Sector or Affiliation
@@ -51,7 +51,7 @@
                                                     <p class="text-dark"><b>Access and Correction</b></p>
                                                     <p class="text-dark mb-4">All information we collect are treated with utmost confidentiality. Only authorized DOST-X personnel have access to the personal information collected. You have the right to ask for a copy of any personal information the DOST-X holds about you, as well as the right to ask for its correction, if found erroneous, or deletion on reasonable grounds.</p>
 
-                                                    <button class="btn btn-danger float-right custom-class" onclick="show_registration_details()">Next</button>
+                                                    <button class="btn btn-primary float-right custom-class" onclick="show_registration_details()">Next</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,7 +64,6 @@
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
                                                     <label class="font-weight-semibold">Title (e.g. Dr., Mr., Mrs.) <small class="text-danger">*</small></label>
-                                                    <input type="hidden" name="event" value="<?=$uri->getSegment(4)?>">
                                                     <select name="title" class="form-control" required>
                                                         <option value=""></option>
                                                         <option value="Mr.">Mr.</option>
@@ -121,6 +120,7 @@
                                                         <option value=""></option>
                                                         <option value="Male">Male</option>
                                                         <option value="Female">Female</option>
+                                                        <option value="Prefer not to say">Prefer not to say</option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group col-md-6">
@@ -143,7 +143,7 @@
                                             </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-6">
-                                                    <label class="form-label">Agency/Unit/LGU</label>
+                                                    <label class="form-label">Agency/Institution/LGU</label>
                                                     <input type="text" name="agency_name" class="form-control" placeholder="Name of Institution/Agency">
                                                 </div>    
                                                 <div class="form-group col-md-6">
@@ -180,10 +180,26 @@
                                                         <label for="checkbox4">IP</label>
                                                     </div>
                                                 </div>
+                                                <hr>
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputEmail4">Following events:</label>
+                                                    <div class="checkbox">
+                                                        <input id="checkbox5" type="checkbox" value="Day 1" name="event[]">
+                                                        <label for="checkbox5"><b>Day 1</b> - <i>Opening Ceremony and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Category Competitions</i></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <input id="checkbox6" type="checkbox" value="Day 2" name="event[]">
+                                                        <label for="checkbox6"><b>Day 2 - </b><i>Plenary Session and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Professional Category Competitions</i></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <input id="checkbox7" type="checkbox" value="Day 3" name="event[]">
+                                                        <label for="checkbox7"><b>Day 3 - </b><i>Closing and Awarding <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ceremonies</i></label>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
-                                                    <button type="submit" class="btn btn-danger custom-class float-right">Register</button>
+                                                    <button type="submit" class="btn btn-primary custom-class float-right">Register</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -216,7 +232,7 @@
         function get_provinces_list(){
             var regCode = $("#seladdress-region").val();
 
-            $.get("<?=base_url('handa/get-provinces-list')?>",{
+            $.get("<?=base_url('rhrc/get-provinces-list')?>",{
                 regCode:regCode
             },function(data){
                 $("#seladdress-provinces").html(data);
@@ -231,14 +247,15 @@
         });
 
         function registration_process(){
-            $.post("<?=base_url('handa/reg-process')?>",{
+            $.post("<?=base_url('rhrc/reg-process')?>",{
                 data:$("#registration-event-form").serializeArray()
             },function(data){
+
                 if (data == "EXISTS") {
                     $("#exists-alert").show();
                     $(window).scrollTop(0);
                 }else{
-                    window.location.href = '<?=base_url('handa/qr-code/')?>'+data;
+                    window.location.href = '<?=base_url('rhrc/qr-code/')?>'+data;
                 }
             });
         }

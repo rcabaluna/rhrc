@@ -14,8 +14,8 @@ INFO - 2023-09-12 09:24:09 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-12 09:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:24:12 --> Undefined variable $events
 in APPPATH\Views\participants-list.php on line 22.
- 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php', 22)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php')
+ 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('participants-list', [], true)
  5 APPPATH\Controllers\Evaluation.php(19): view('participants-list', [...])
@@ -26,8 +26,8 @@ in APPPATH\Views\participants-list.php on line 22.
 INFO - 2023-09-12 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:25:45 --> Undefined variable $events
 in APPPATH\Views\participants-list.php on line 22.
- 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php', 22)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php')
+ 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('participants-list', [], true)
  5 APPPATH\Controllers\Admin.php(32): view('participants-list', [...])
@@ -38,8 +38,8 @@ in APPPATH\Views\participants-list.php on line 22.
 INFO - 2023-09-12 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:25:46 --> Undefined variable $events
 in APPPATH\Views\participants-list.php on line 22.
- 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php', 22)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php')
+ 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('participants-list', [], true)
  5 APPPATH\Controllers\Admin.php(32): view('participants-list', [...])
@@ -50,8 +50,8 @@ in APPPATH\Views\participants-list.php on line 22.
 INFO - 2023-09-12 09:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:25:46 --> Undefined variable $events
 in APPPATH\Views\participants-list.php on line 22.
- 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php', 22)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php')
+ 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('participants-list', [], true)
  5 APPPATH\Controllers\Admin.php(32): view('participants-list', [...])
@@ -62,8 +62,8 @@ in APPPATH\Views\participants-list.php on line 22.
 INFO - 2023-09-12 09:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:26:12 --> Undefined variable $events
 in APPPATH\Views\admin\registration-link-list.php on line 9.
- 1 APPPATH\Views\admin\registration-link-list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\admin\\registration-link-list.php', 9)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\admin\\registration-link-list.php')
+ 1 APPPATH\Views\admin\registration-link-list.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\admin\\registration-link-list.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\admin\\registration-link-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('admin/registration-link-list', [], true)
  5 APPPATH\Controllers\Admin.php(32): view('admin/registration-link-list', [...])
@@ -96,8 +96,8 @@ INFO - 2023-09-12 09:31:22 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-12 09:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:33:08 --> Undefined variable $events
 in APPPATH\Views\participants-list.php on line 22.
- 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php', 22)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\participants-list.php')
+ 1 APPPATH\Views\participants-list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\participants-list.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('participants-list', [], true)
  5 APPPATH\Controllers\Evaluation.php(19): view('participants-list', [...])
@@ -131,8 +131,8 @@ INFO - 2023-09-12 09:39:27 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-12 09:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 09:40:09 --> Undefined variable $eventx
 in APPPATH\Views\evaluation-per-event.php on line 23.
- 1 APPPATH\Views\evaluation-per-event.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventx', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 23)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventx', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(29): view('evaluation-per-event', [...])
@@ -145,7 +145,7 @@ CRITICAL - 2023-09-12 09:40:39 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(29): view('evaluation-per-event', [...])
@@ -159,7 +159,7 @@ CRITICAL - 2023-09-12 09:40:53 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(29): view('evaluation-per-event', [...])
@@ -172,7 +172,7 @@ CRITICAL - 2023-09-12 09:40:54 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(29): view('evaluation-per-event', [...])
@@ -185,7 +185,7 @@ CRITICAL - 2023-09-12 09:41:18 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(24): view('evaluation-per-event', [...])
@@ -198,7 +198,7 @@ CRITICAL - 2023-09-12 09:59:15 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(24): view('evaluation-per-event', [...])
@@ -211,7 +211,7 @@ CRITICAL - 2023-09-12 09:59:36 --> Request URI segment is out of range: "3"
 in SYSTEMPATH\HTTP\URI.php on line 549.
  1 SYSTEMPATH\HTTP\URI.php(549): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
  2 APPPATH\Views\evaluation-per-event.php(67): CodeIgniter\HTTP\URI->getSegment(3)
- 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  6 APPPATH\Controllers\Evaluation.php(24): view('evaluation-per-event', [...])
@@ -222,8 +222,8 @@ in SYSTEMPATH\HTTP\URI.php on line 549.
 INFO - 2023-09-12 10:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:00:11 --> Undefined variable $regions
 in APPPATH\Views\evaluation-per-event.php on line 128.
- 1 APPPATH\Views\evaluation-per-event.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regions', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 128)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regions', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 128)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(24): view('evaluation-per-event', [...])
@@ -234,8 +234,8 @@ in APPPATH\Views\evaluation-per-event.php on line 128.
 INFO - 2023-09-12 10:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:00:12 --> Undefined variable $regions
 in APPPATH\Views\evaluation-per-event.php on line 128.
- 1 APPPATH\Views\evaluation-per-event.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regions', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 128)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regions', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 128)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(24): view('evaluation-per-event', [...])
@@ -246,7 +246,7 @@ in APPPATH\Views\evaluation-per-event.php on line 128.
 INFO - 2023-09-12 10:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:01:04 --> Undefined property: App\Controllers\Evaluation::$registrationModel
 in APPPATH\Controllers\Evaluation.php on line 20.
- 1 APPPATH\Controllers\Evaluation.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Evaluation::$registrationModel', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Evaluation.php', 20)
+ 1 APPPATH\Controllers\Evaluation.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Evaluation::$registrationModel', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Evaluation.php', 20)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Evaluation->index()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -254,7 +254,7 @@ in APPPATH\Controllers\Evaluation.php on line 20.
 INFO - 2023-09-12 10:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:01:08 --> Undefined property: App\Controllers\Evaluation::$registrationModel
 in APPPATH\Controllers\Evaluation.php on line 20.
- 1 APPPATH\Controllers\Evaluation.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Evaluation::$registrationModel', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Evaluation.php', 20)
+ 1 APPPATH\Controllers\Evaluation.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Evaluation::$registrationModel', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Evaluation.php', 20)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Evaluation->index()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -262,8 +262,8 @@ in APPPATH\Controllers\Evaluation.php on line 20.
 INFO - 2023-09-12 10:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:01:09 --> Undefined variable $sectors
 in APPPATH\Views\evaluation-per-event.php on line 157.
- 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 157)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(25): view('evaluation-per-event', [...])
@@ -274,8 +274,8 @@ in APPPATH\Views\evaluation-per-event.php on line 157.
 INFO - 2023-09-12 10:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:01:09 --> Undefined variable $sectors
 in APPPATH\Views\evaluation-per-event.php on line 157.
- 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 157)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(25): view('evaluation-per-event', [...])
@@ -286,8 +286,8 @@ in APPPATH\Views\evaluation-per-event.php on line 157.
 INFO - 2023-09-12 10:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-12 10:01:10 --> Undefined variable $sectors
 in APPPATH\Views\evaluation-per-event.php on line 157.
- 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php', 157)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\evaluation-per-event.php')
+ 1 APPPATH\Views\evaluation-per-event.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectors', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php', 157)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\evaluation-per-event.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('evaluation-per-event', [], true)
  5 APPPATH\Controllers\Evaluation.php(25): view('evaluation-per-event', [...])
@@ -296,18 +296,18 @@ in APPPATH\Views\evaluation-per-event.php on line 157.
  8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-09-12 10:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-ERROR - 2023-09-12 10:01:37 --> mysqli_sql_exception: Table 'conplan.tblsectors' doesn't exist in C:\xampp\htdocs\handa-registration\system\Database\MySQLi\Connection.php:295
+ERROR - 2023-09-12 10:01:37 --> mysqli_sql_exception: Table 'conplan.tblsectors' doesn't exist in C:\xampp\htdocs\rhrc\system\Database\MySQLi\Connection.php:295
 Stack trace:
-#0 C:\xampp\htdocs\handa-registration\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
-#1 C:\xampp\htdocs\handa-registration\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\handa-registration\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\handa-registration\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\handa-registration\app\Models\EvaluationModel.php(13): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\handa-registration\app\Controllers\Evaluation.php(21): App\Models\EvaluationModel->get_all_data('tblsectors')
-#6 C:\xampp\htdocs\handa-registration\system\CodeIgniter.php(932): App\Controllers\Evaluation->index()
-#7 C:\xampp\htdocs\handa-registration\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
-#8 C:\xampp\htdocs\handa-registration\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\handa-registration\index.php(67): CodeIgniter\CodeIgniter->run()
+#0 C:\xampp\htdocs\rhrc\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rhrc\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rhrc\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rhrc\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rhrc\app\Models\EvaluationModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rhrc\app\Controllers\Evaluation.php(21): App\Models\EvaluationModel->get_all_data('tblsectors')
+#6 C:\xampp\htdocs\rhrc\system\CodeIgniter.php(932): App\Controllers\Evaluation->index()
+#7 C:\xampp\htdocs\rhrc\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 C:\xampp\htdocs\rhrc\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rhrc\index.php(67): CodeIgniter\CodeIgniter->run()
 #10 {main}
 CRITICAL - 2023-09-12 10:01:37 --> Table 'conplan.tblsectors' doesn't exist
 in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.

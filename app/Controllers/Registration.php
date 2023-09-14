@@ -22,17 +22,14 @@ class Registration extends BaseController
 
     public function event()
     {
-        $uri = service('uri');
-        $eventshorthand = $uri->getSegment(4);
-
+		$data['pagetitle'] = "6th Regional Health Research Conference - Northern Mindanao";
+		$eventshorthand = "rhrc";
         $data['eventx'] = $this->registrationModel->get_data_where('tblevents',array('shorthand' => $eventshorthand));
 		$data['regions'] = $this->registrationModel->get_all_data('refregion');
         if ($data['eventx']) {
             $data['sectors'] = $this->registrationModel->get_all_data('tblsector');
             return view('registration-per-event',$data);
-       }else{
-           throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(); 
-        }
+       }
     }
 
 	public function getProvincesList(){
@@ -47,6 +44,7 @@ class Registration extends BaseController
 
 		$data = array();
 		$privilegesArr = array();
+		$eventsAttendArr = array();
 
 		
 		foreach ($datax AS $key => $value) {
@@ -55,10 +53,18 @@ class Registration extends BaseController
 			if ($value['name'] == 'privileges[]') {
 				array_push($privilegesArr,$value['value']);
 			}
+
+			if ($value['name'] == 'event[]') {
+				array_push($eventsAttendArr,$value['value']);
+			}
 		}
 
 		unset($data['privileges[]']);
+		unset($data['event[]']);
+
 		$data['privileges'] = implode(", ",$privilegesArr);
+		$data['event'] = implode(", ",$eventsAttendArr);
+
 
 			$check = $this->registrationModel->check_user_exists_by_name('tblparticipants',$data);
 			if ($check) {
@@ -114,7 +120,7 @@ class Registration extends BaseController
 	{
         $ciqrcode = new Ciqrcode();
 		$qr_image=$userid.'.png';
-		$strData = $event."/".$userid;
+		$strData = $userid;
 		$params['data'] = $strData;
 		$params['level'] = 'H';
 		$params['size'] = 8;
@@ -125,6 +131,7 @@ class Registration extends BaseController
 
 	public function QRCode(){
 		$data['userid'] = $this->request->uri->getSegment(2);
+		$data['pagetitle'] = "6th Regional Health Research Conference - Northern Mindanao";
 
 		return view('qr-code', $data);
 	}

@@ -15,18 +15,6 @@
                                 </div>
                                 <?php
                                 }?>
-                                <div class="col-md-12">
-                                    <label>Select forum/event:</label>
-                                    <select class="form-control" id="selevents" onchange="get_participants_by_event()">
-                                        <option value="all">All</option>
-                                        <?php foreach ($events as $eventsRow) { ?>
-                                        <option value="<?=$eventsRow['shorthand']?>"><?=$eventsRow['name']?></option>
-                                        <?php } ?>
-                                    </select>
-                                </div>
-                                <div class="mt-3 col-12">
-                                    
-                                </div>
                             </div>
                         </div>
             <div class="m-t-25">
@@ -69,7 +57,7 @@
                             <td><small><?=$participantsRow['regDesc']." - <br>".$participantsRow['provDesc']?></small></td>
                             <td><?=$participantsRow['agency_name']?></td>
                             <td><?=$participantsRow['sectorname']?></td>
-                            <td><small><?=$participantsRow['name']?></small></td>
+                            <td><small><?=$participantsRow['event']?></small></td>
                             <td><?=($participantsRow['privileges']) ? $participantsRow['privileges'] : '-' ?></td>
                             <td>
                                 <div class="avatar avatar-image avatar-square">
@@ -79,7 +67,7 @@
                             <td><?=date("M d, Y h:i A",strtotime($participantsRow['date_registered']))?></td>
                             <td>
                                 <button class="btn btn-primary btn-xs"><i class="anticon anticon-edit"></i></button>
-                                <a href="<?=base_url('handa/participants/delete?participantid='.$participantsRow['participantid'])?>">
+                                <a href="<?=base_url('rhrc/participants/delete?participantid='.$participantsRow['participantid'])?>">
                                     <button class="btn btn-danger btn-xs"><i class="anticon anticon-delete"></i></button>
                                 </a>
                             </td>
@@ -112,9 +100,5 @@
             ]
         });
 
-        function get_participants_by_event() {
-            var event = $("#selevents").val();
-            window.location.replace("<?=base_url('/handa/participants?event=')?>"+event);
-        }
     </script>
 <?= $this->endSection() ?>

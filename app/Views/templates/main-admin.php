@@ -16,8 +16,8 @@
 
         <style>
             .activex {
-                color: #de4436 !important;
-                background-color: rgba(222, 68, 54, 0.15);
+                color: #3f87f5 !important;
+                background-color: rgba(63,135,245,0.15);
             }
 
             @media all and (max-width: 480px) {
@@ -47,20 +47,20 @@
     </head>
 
     <body>
-        <div class="app is-danger">
+        <div class="app is-primary">
             <div class="layout">
                 <!-- Header START -->
                 <div class="header">
                     <div class="logo logo-dark">
-                        <a href="<?=base_url('/handa/admin/dashboard')?>">
+                        <a href="<?=base_url('/rhrc/admin/dashboard')?>">
                             <img src="assets/images/logo/logo.png" alt="Logo" />
                             <img class="logo-fold" src="assets/images/logo/logo-fold.png" alt="Logo" />
                         </a>
                     </div>
                     <div class="logo logo-white">
-                        <a href="<?=base_url('/handa/admin/dashboard')?>">
-                            <img src="<?=base_url('assets/images/logo/logo-white.png')?>" alt="Logo" />
-                            <img class="logo-fold" src="<?=base_url('assets/images/logo/logo-fold-white.png')?>" alt="Logo" />
+                        <a href="<?=base_url('/rhrc/admin/dashboard')?>">
+                            <img style="margin-top: 10px;" src="<?=base_url('assets/images/logo/logo-white.png')?>" alt="Logo" />
+                            <img class="logo-fold" style="margin-left: 33%; margin-top: 10%;" src="<?=base_url('assets/images/logo/logo-fold-white.png')?>" alt="Logo" />
                         </a>
                     </div>
                     <div class="nav-wrap">
@@ -85,7 +85,7 @@
                     <div class="side-nav-inner">
                         <ul class="side-nav-menu scrollable">
                             <li class="nav-item dropdown" id="ul-four">
-                                <a class="dropdown-toggle" href="<?=base_url('/handa/admin/dashboard')?>">
+                                <a class="dropdown-toggle" href="<?=base_url('/rhrc/admin/dashboard')?>">
                                     <span class="icon-holder">
                                         <i class="anticon anticon-dashboard"></i>
                                     </span>
@@ -104,10 +104,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-reg-links">
-                                        <a href="<?=base_url('/handa/registration/links')?>">QR Codes/Links</a>
+                                        <a href="<?=base_url('/rhrc/registration/links')?>">QR Codes/Links</a>
                                     </li>
                                     <li id="li-walkin">
-                                        <a href="<?=base_url('/handa/registration/w-list')?>">Walk-in QR Links</a>
+                                        <a href="<?=base_url('/rhrc/registration/w-list')?>">Walk-in QR Links</a>
                                     </li>
                                 </ul>
                             </li>
@@ -123,7 +123,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-evaluation-links">
-                                        <a href="<?=base_url('/handa/evaluation/links')?>">Links</a>
+                                        <a href="<?=base_url('/rhrc/evaluation/links')?>">Links</a>
                                     </li>
                                 </ul>
                             </li>
@@ -139,10 +139,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-participants">
-                                        <a href="<?=base_url('/handa/participants?event=all')?>">Participants List</a>
+                                        <a href="<?=base_url('/rhrc/participants?event=all')?>">Participants List</a>
                                     </li>
                                     <li id="li-attendance">
-                                        <a href="<?=base_url('/handa/attendance?event=all')?>">Attendance List</a>
+                                        <a href="<?=base_url('/rhrc/attendance?event=all')?>">Attendance List</a>
                                     </li>
                                 </ul>
                             </li>
@@ -158,15 +158,12 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li id="li-food-scanner">
-                                        <a href="<?=base_url('/handa/81525e75be630cc750ea7beeb81f2de1')?>">Attendance</a>
-                                    </li>
-                                    <li id="li-attendance-scanner">
-                                        <a href="javascript:void(0)">Food</a>
+                                        <a href="<?=base_url('/rhrc/81525e75be630cc750ea7beeb81f2de1')?>">Attendance</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown" id="ul-five">
-                                <a class="dropdown-toggle" href="<?=base_url('/handa/logout')?>">
+                                <a class="dropdown-toggle" href="<?=base_url('/rhrc/logout')?>">
                                     <span class="icon-holder">
                                         <i class="anticon anticon-logout"></i>
                                     </span>

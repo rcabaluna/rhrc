@@ -321,8 +321,8 @@ INFO - 2023-09-06 13:59:15 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-06 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:00:20 --> Undefined variable $regDesc
 in APPPATH\Views\attendance\profile.php on line 28.
- 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 28)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -333,8 +333,8 @@ in APPPATH\Views\attendance\profile.php on line 28.
 INFO - 2023-09-06 14:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:00:26 --> Undefined variable $regDesc
 in APPPATH\Views\attendance\profile.php on line 28.
- 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 28)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -345,8 +345,8 @@ in APPPATH\Views\attendance\profile.php on line 28.
 INFO - 2023-09-06 14:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:00:33 --> Undefined variable $regDesc
 in APPPATH\Views\attendance\profile.php on line 28.
- 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 28)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -357,8 +357,8 @@ in APPPATH\Views\attendance\profile.php on line 28.
 INFO - 2023-09-06 14:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:00:40 --> Undefined variable $regDesc
 in APPPATH\Views\attendance\profile.php on line 28.
- 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 28)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -369,8 +369,8 @@ in APPPATH\Views\attendance\profile.php on line 28.
 INFO - 2023-09-06 14:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:00:45 --> Undefined variable $regDesc
 in APPPATH\Views\attendance\profile.php on line 28.
- 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 28)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $regDesc', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -414,8 +414,8 @@ INFO - 2023-09-06 14:16:56 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-09-06 14:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 CRITICAL - 2023-09-06 14:18:07 --> Undefined variable $agency
 in APPPATH\Views\attendance\profile.php on line 45.
- 1 APPPATH\Views\attendance\profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agency', 'C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php', 45)
- 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\attendance\\profile.php')
+ 1 APPPATH\Views\attendance\profile.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $agency', 'C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\attendance\\profile.php')
  3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance/profile', [], true)
  5 APPPATH\Controllers\Attendance.php(26): view('attendance/profile', [...])
@@ -608,7 +608,7 @@ WARNING - 2023-09-06 15:22:18 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:22:18 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -624,7 +624,7 @@ WARNING - 2023-09-06 15:22:38 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:22:38 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -638,7 +638,7 @@ WARNING - 2023-09-06 15:22:39 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:22:39 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -655,7 +655,7 @@ WARNING - 2023-09-06 15:25:16 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:25:16 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -671,7 +671,7 @@ WARNING - 2023-09-06 15:25:49 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:25:49 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -685,7 +685,7 @@ WARNING - 2023-09-06 15:25:51 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:25:51 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -701,7 +701,7 @@ WARNING - 2023-09-06 15:26:42 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:26:42 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -717,7 +717,7 @@ WARNING - 2023-09-06 15:27:29 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:27:29 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
@@ -733,7 +733,7 @@ WARNING - 2023-09-06 15:27:46 --> [DEPRECATED] explode(): Passing null to parame
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 CRITICAL - 2023-09-06 15:27:46 --> Undefined array key 1
 in APPPATH\Controllers\Attendance.php on line 32.
- 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\handa-registration\\app\\Controllers\\Attendance.php', 32)
+ 1 APPPATH\Controllers\Attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\rhrc\\app\\Controllers\\Attendance.php', 32)
  2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Attendance->AttendanceSave()
  3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Attendance))
  4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)

@@ -34,20 +34,20 @@ class Home extends BaseController
                     ];
                         $this->session->set($userdata);
 
-                    return redirect()->to(base_url('handa/admin/dashboard')); 
+                    return redirect()->to(base_url('rhrc/admin/dashboard')); 
                 }else{
                     $data['invalid'] = true;
                 }
             }
         }
 
-        $data['pagetitle'] = "HANDA 2023 - Login";
+        $data['pagetitle'] = "6th Regional Health Research Conference - Northern Mindanao";
         return view('login',$data);
     }
 
     public function logout(){
         $this->session->destroy();
-        return redirect()->to(base_url('handa/login')); 
+        return redirect()->to(base_url('rhrc/login')); 
 
     }
 

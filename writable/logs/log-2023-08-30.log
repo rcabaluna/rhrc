@@ -27,7 +27,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/toasts.php')
  2 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('templates/toasts', null, true)
  3 APPPATH\Views\templates\main.php(29): CodeIgniter\View\View->include('templates/toasts')
- 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\handa-registration\\app\\Views\\templates\\main.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rhrc\\app\\Views\\templates\\main.php')
  5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
  6 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('templates/main', [], true)
  7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('attendance-form', [], true)

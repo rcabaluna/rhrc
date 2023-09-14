@@ -36,7 +36,7 @@
                                         </div>
                                         <?php
                                     }?>
-                                    <form action="<?=base_url('handa/login')?>" method="POST">
+                                    <form action="<?=base_url('rhrc/login')?>" method="POST">
                                         <div class="form-group">
                                             <label class="font-weight-semibold" for="userName">Username:</label>
                                             <div class="input-affix">
@@ -53,7 +53,7 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="d-flex align-items-center justify-content-between float-right">
-                                                <button class="btn btn-danger">Login</button>
+                                                <button class="btn btn-primary">Login</button>
                                             </div>
                                         </div>
                                     </form>
